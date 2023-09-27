@@ -5,7 +5,8 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-heart_disease_model = pickle.load(open('C:\Users\krish\Downloads\heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open(r'C:\Users\krish\Downloads\heart_disease_model.sav', 'rb'))
+
 
 
 
